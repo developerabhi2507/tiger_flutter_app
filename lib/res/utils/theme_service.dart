@@ -20,10 +20,8 @@ class ThemeService {
 
   // Light theme colors
   final lightTheme = ThemeData.light().copyWith(
-    scaffoldBackgroundColor: AppColor.bg2Light,
+    scaffoldBackgroundColor: AppColor.bg1Light,
     hintColor: AppColor.text3Light,
-    elevatedButtonTheme: ThemeConstants().elevatedStyle1,
-    textButtonTheme: ThemeConstants().textButtonStyle1,
     textTheme: ThemeConstants().textTheme,
     bottomSheetTheme: ThemeConstants().bottomSheetStyle,
     iconTheme: ThemeConstants().iconStyle,

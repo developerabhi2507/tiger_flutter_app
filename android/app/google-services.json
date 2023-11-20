@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "188799107355",
+    "project_id": "tiger-spin-wheel-game-app",
+    "storage_bucket": "tiger-spin-wheel-game-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188799107355:android:5f774e46c033f96d8353be",
+        "android_client_info": {
+          "package_name": "com.developerabhi.tiger_demo_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyByNwVa1AnIgNyRcQTbhhqt6Q3_5a9y4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

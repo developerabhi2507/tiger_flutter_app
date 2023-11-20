@@ -4,10 +4,10 @@ import '../colors/app_color.dart';
 
 class ThemeConstants {
   // Font Family
-  static const String defaultFontFamily = "Nunito";
+  static const String defaultFontFamily = "Inter";
 
   // Font Sizes
-  static const double extraSmallFontSize = 14.0;
+  static const double extraSmallFontSize = 10.0;
   static const double smallFontSize = 15.0;
   static const double mediumFontSize = 18.0;
   static const double largeFontSize = 25.0;
@@ -102,8 +102,8 @@ class ThemeConstants {
   ));
 
   ButtonStyle elevatedStyle2 = ButtonStyle(
-    backgroundColor: const MaterialStatePropertyAll(AppColor.buttonBg2Light),
-    foregroundColor: const MaterialStatePropertyAll(AppColor.buttonFg2Light),
+    backgroundColor: const MaterialStatePropertyAll(AppColor.buttonBg3Light),
+    foregroundColor: const MaterialStatePropertyAll(AppColor.buttonFg3Light),
     overlayColor: const MaterialStatePropertyAll(AppColor.buttonOverLayLight),
     shape: MaterialStatePropertyAll(RoundedRectangleBorder(
         borderRadius: defaultBorderRadius,
@@ -114,11 +114,11 @@ class ThemeConstants {
 
   TextButtonThemeData textButtonStyle1 = const TextButtonThemeData(
       style: ButtonStyle(
-          foregroundColor: MaterialStatePropertyAll(AppColor.buttonFg3Light),
+          foregroundColor: MaterialStatePropertyAll(AppColor.buttonFg4Light),
           textStyle: MaterialStatePropertyAll(buttonStyle)));
 
   ButtonStyle textButtonStyle2 = const ButtonStyle(
-      foregroundColor: MaterialStatePropertyAll(AppColor.buttonFg4Light),
+      foregroundColor: MaterialStatePropertyAll(AppColor.buttonFg5Light),
       textStyle: MaterialStatePropertyAll(buttonStyle));
 
   BottomSheetThemeData bottomSheetStyle = BottomSheetThemeData(

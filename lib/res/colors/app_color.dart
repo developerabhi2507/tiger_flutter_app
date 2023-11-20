@@ -7,7 +7,7 @@ class AppColor {
 
   // Text Colors
   // all large heading colors
-  static const Color text1Light = Color(0xFF0AA59D);
+  static const Color text1Light = Color(0xFF0057FF);
   // image caption & other white color titles
   static const Color text2Light = Color(0xFFFFFFFF);
   // container's title, appbar title, body texts, hint text style
@@ -17,36 +17,41 @@ class AppColor {
 
   // Background Colors
   // login options image filter color
-  static const Color bg1Light = Color(0xFF000000);
+  static const Color bg1Light = Color(0xFFEFF8FF);
   // scaffold background, inputBox background
-  static const Color bg2Light = Color(0xFFF0F2F5);
+  static const Color bg2Light = Color(0xFFFFE500);
   // bottomsheet background, container's background
-  static const Color bg3Light = Color(0xFFDCE2F2);
+  static const Color bg3Light = Color(0xFFFFFFFF);
   // inputBox background
-  static const Color bg4Light = Color(0xFFF8F2F2);
+  static const Color bg4Light = Color(0xFF22ADFF);
   // security pages background
-  static const Color bg5Light = Color(0xFF0AA59D);
+  static const Color bg5Light = Color(0xFFF4F9FF);
   // circular chart fill background internal security
-  static const Color bg6Light = Color(0xFF75C8C6);
+  static const Color bg6Light = Color(0xFF35A9FC);
   // circular chart fill background wifi security
   static const Color bg7Light = Color(0xFF7C75C8);
 
   // Button Colors
   // elevated button color for elevated style1
-  static const Color buttonBg1Light = Color(0xFF193BAE);
+  static const Color buttonBg1Light = Color(0xff35a9fc);
   static const Color buttonFg1Light = Color(0xFFFFFFFF);
   // elevated button color for elevated style2
   static const Color buttonBg2Light = Color(0xFFFFFFFF);
   static const Color buttonFg2Light = Color(0xFF000000);
+  // elevated button color for elevated style2
+  static const Color buttonBg3Light = Color(0xFFD9EFFC);
+  static const Color buttonFg3Light = Color(0xFF0057FF);
   // textButtonColor for textStyle1
-  static const Color buttonFg3Light = Color(0xFF000000);
+  static const Color buttonFg4Light = Color(0xFF4BBDFC);
   // textButtonColor for textStyle2
-  static const Color buttonFg4Light = Color(0xFF2F81E6);
+  static const Color buttonFg5Light = Color(0xFF2F81E6);
+  static const Color buttonFg6Light = Color(0xFF0047FF);
   // all buttons overlay colors
   static const Color buttonOverLayLight = Colors.grey;
 
   // Icon Colors
-  static const Color iconLight = Color(0xFF0AA59D);
+  static const Color iconLight = Color(0xFF2F81E6);
+  static const Color icon2Light = Color(0xFF000000);
 
   // Dark Theme Colors
 
@@ -85,6 +90,7 @@ class AppColor {
   static const Color buttonFg3Dark = Color(0xFFFFFFFF);
   // textButtonColor for textStyle2
   static const Color buttonFg4Dark = Color(0xFF00BFFF);
+  static const Color buttonFg5Dark = Color(0xFF0047FF);
   // all buttons overlay colors
   static const Color buttonOverLayDark = Colors.black38;
 
@@ -92,7 +98,7 @@ class AppColor {
   static const Color iconDark = Color(0xFF0AA59D);
 
   // Box shadow colors
-  static const Color boxShadow = Color(0xFF000000);
+  static const Color boxShadow = Color(0xFFD9D9D9);
 
   // Border Colors
   // all border colors
@@ -107,14 +113,19 @@ class AppColor {
   // Cursor Color
   static const Color cursor = Color(0xFF0AA59D);
 
+  // Input Fill Color
+  static const Color fillColor = Color(0xffffffff);
+
   // Divider Color
-  static const Color divider = Color(0xFF000000);
+  static const Color divider = Color(0xFF0057FF);
+  static const Color divider2 = Color(0xFF000000);
 
   // Progress Indicator Colors
   static const Color circularIndicator = Color(0xFF0AA59D);
 
   // Error Colors
   static const Color errorColor = Color(0xFFB00020); // Red
+  static const Color timerColor = Color(0xFFB00020); // Red
 
   // Function to get the color from a color tag (e.g., [BLUE], [BLACK], etc.)
   static Color? _getColorFromTag(String tag) {
